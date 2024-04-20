@@ -5,5 +5,10 @@ Una implementación de algunas FFlags para Roblox
 
 ## Contribuyendo
 
+Gracias total @Sylvan86 por tu increíble JSON UDF hecha en AutoIT puro
+https://github.com/Sylvan86/autoit-json-udf
+
 Los ajustes se basan en algunas FFlags expuestas [aquí](https://github.com/catb0x/Roblox-Potato-FFlags)
+
+
 
