@@ -225,7 +225,6 @@ Func _SetSettings()
 	Local $RbxKey = "HKLM64\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\RobloxPlayerBeta.exe\PerfOptions"
 	RegWrite($RbxKey, "CpuPriorityClass", "REG_DWORD", "0x3")
 	RegWrite($RbxKey, "IoPriority", "REG_DWORD", "0x3")
-	RegWrite($RbxKey, "UseLargePages", "REG_DWORD", "0x1")
 
 	Global $data = _JSON_Generate($_map) ;generar mapa JSON
 	FileWrite($json, $data) ;escribir datos
